@@ -4,7 +4,8 @@ import styles from './File.module.css';
 import pdfFile from './1.pdf';
 import { Document, Page, pdfjs } from "react-pdf";
 import { LeftOutlined, RightOutlined, ZoomInOutlined, ZoomOutOutlined, FullscreenExitOutlined, FullscreenOutlined } from '@ant-design/icons';
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cdn.bootcdn.net/ajax/libs/pdf.js/2.6.347/pdf.worker.min.js`;
+// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 class File extends PureComponent {
 
