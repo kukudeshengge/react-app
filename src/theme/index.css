@@ -1,0 +1,17 @@
+:root{
+    --drak:#abb8c3;
+}
+
+.header{
+    background: var(--drak);
+}
+.site-layout .site-layout-background{
+    background: var(--drak);
+}
+.ant-layout-sider{
+    background: var(--drak);
+    margin-right: 20px;
+}
+.ant-menu.ant-menu-dark{
+    background: var(--drak);
+}

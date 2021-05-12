@@ -1,0 +1,54 @@
+.view {
+  background: #444;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  /* overflow: auto; */
+  user-select: none;
+}
+.view .svg{
+  margin: 0px 8px;
+}
+.pageContainer {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+  width: max-content;
+  max-width: 100%;
+}
+
+.pageTool {
+  position: absolute;
+  bottom: 20px;
+  background: rgb(66, 66, 66);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 15px;
+
+
+}
+
+.pageTool i {
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.pageTool i:hover {
+  background: #333;
+}
+
+.pageTool input {
+  display: inline-block;
+  width: 50px;
+  text-align: center;
+  margin-right: 10px;
+  height: 24px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
